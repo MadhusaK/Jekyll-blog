@@ -2,14 +2,14 @@
 	{% if group == null or group == node.group %}
 		{% if page.url == node.url %}
 			<li>
-				<a href="{{node.url}}" class="selected">{{node.url}}</a>
+				<a href="{{node.url}}" class="selected">{{node.title}}</a>
 			</li>
 		{% else %}
 			<li>
-				<a href="{{node.url}}">{{node.url}}</a>
+				<a href="{{node.url}}">{{node.title}}</a>
 			</li>
 		{% endif %}
 	{% endif %}
 {% endfor %}
-{% assign pages_value = nil %}
+{% assign pages_list = nil %}
 {% assign group = nil %}

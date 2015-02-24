@@ -61,6 +61,7 @@ hr.small {
 .selected{
   color: #CBE86B !important;
 }
+
 @media only screen and (min-width: 768px) {
   .navbar-custom {
     background: transparent;
