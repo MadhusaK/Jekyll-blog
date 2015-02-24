@@ -1,8 +1,9 @@
 ---
 layout: post 
-title: "Hello World"
+pagetitle: "Hello World"
 description: ":D"
 author: "Madhusa"
+flavour: "\"Hi\""
 image: "/img/w-peas.jpg"
 ---
 

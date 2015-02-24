@@ -1,8 +1,9 @@
 ---
 layout: default
+pagetitle: "Madhusa's Blog"
 title: "Home"
 group: "navigation"
-flavour: "Random samples"
+flavour: "\"Random samples\""
 image: "/img/w-navy.jpg"
 order: 1
 ---
@@ -13,7 +14,7 @@ order: 1
             <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
                     {% for post in site.posts %}
                     <div class="post-preview">
-                        <a href="{{ post.url }}">
+                        <a href="{{ post.url | preprend: site.url }}">
                             <h2 class="post-title">
                                 {{ post.title }}
                             </h2>
@@ -25,12 +26,6 @@ order: 1
                     </div>
                     <hr>
                 {% endfor %}
-                <!-- Pager -->
-                <ul class="pager">
-                    <li class="next">
-                        <a href="#">Older Posts &rarr;</a>
-                    </li>
-                </ul>
             </div>
         </div>
     </div>

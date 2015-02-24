@@ -58,9 +58,6 @@ hr.small {
   letter-spacing: 1px;
 }
 
-.selected{
-  color: #CFF09E !important;
-}
 
 @media only screen and (min-width: 768px) {
   .navbar-custom {
