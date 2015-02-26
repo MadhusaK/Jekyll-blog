@@ -141,7 +141,7 @@ hr.small {
 .intro-header .site-heading,
 .intro-header .post-heading,
 .intro-header .page-heading {
-  padding: 50px 0 50px;
+  padding: 100px 0 50px ;
   color: white;
 }
 @media only screen and (min-width: 768px) {
@@ -167,7 +167,7 @@ hr.small {
 			display: block;
   font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
   font-weight: 300;
-  margin: 10px 0 10px;
+  margin: 10px 0 0px;
 }
 @media only screen and (min-width: 768px) {
   .intro-header .site-heading h1,
