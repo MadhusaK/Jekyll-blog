@@ -6,7 +6,6 @@ author: "Madhusa"
 flavour: "\"Let's get classy\""
 image: "/img/w-yellow.jpg"
 ---
-
 <body>Classification is the process of creating predictive models used to predict qualitative variable (also known as categorical variables). Obvious applications of such methods arise in the domain of natural language processing when trying to discern the sentiment(positive, neutral, or negative) of a passage of text.</p>
 
 ##Logistic Regression
