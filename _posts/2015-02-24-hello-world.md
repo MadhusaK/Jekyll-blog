@@ -4,9 +4,9 @@ pagetitle: "Hello World"
 description: ":D"
 author: "Madhusa"
 flavour: "\"Hi\""
-image: "/img/w-peas.jpg"
+image: "/img/w-navy.jpg"
 ---
-
+<body>
 #Hello World
 
 Hmm, interesting! 
@@ -15,3 +15,4 @@ Hmm, interesting!
 
 
 ###Hello World
+</body>
