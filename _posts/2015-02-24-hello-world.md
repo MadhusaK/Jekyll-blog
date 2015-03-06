@@ -9,7 +9,7 @@ image: "/img/oceanlake.jpg"
 <body>
 #Hello World
 
-Hmm, interesting! 
+Content coming soon! 
 
 
 
